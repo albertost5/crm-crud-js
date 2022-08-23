@@ -2,16 +2,9 @@
   "clients": [
     {
       "name": "John Doe",
-      "email": "johndoe@test.com",
-      "phone": "1234",
-      "company": "John Doe",
-      "id": 1
-    },
-    {
-      "name": "test2",
-      "email": "test2@test.com",
-      "phone": "2",
-      "company": "2",
+      "email": "JOHNDOE@test.com",
+      "phone": "34 XXX XXX XXX",
+      "company": "JOHN DOE",
       "id": 2
     }
   ]

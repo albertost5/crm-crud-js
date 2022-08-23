@@ -8,6 +8,6 @@ CRM crud using JSON-Server, async/await, DOM, events...
 
 2. Create clients and store them using JSON-server.
 
-3. 
+3. List all the clients once that one is created.
 
-4. 
+4. Edit and delete client actions.

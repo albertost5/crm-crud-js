@@ -1,12 +1,5 @@
-import { getAllClients } from './api.js';
+import { showClients, confirmDelete } from './functions.js';
 import * as UI from './selectors.js';
 
-document.addEventListener('DOMContentLoaded', async() => {
-    try {
-        const clients = await getAllClients();
-        console.log('clients: ', clients);
-    } catch (error) {
-        console.log('Error: ', error);
-    }
-
-});
+document.addEventListener('DOMContentLoaded', showClients);
+UI.clientList.addEventListener('click', confirmDelete);
